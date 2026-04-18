@@ -1,33 +1,33 @@
-Library
-library
-Temp
-temp
-Obj
-obj
-Build
-build
-Builds
-builds
-UserSettings
-usersettings
-MemoryCaptures
-memorycaptures
-Logs
-logs
-**/Assets/AssetStoreTools
-**/assets/assetstoretools
-/Assets/Plugins/PlasticSCM*
-/assets/plugins/PlasticSCM*
-*.private
-*.private.meta
-^*.private.[0-9]+$
-^*.private.[0-9]+.meta$
-.vs
-.vscode
-.idea
-.gradle
-ExportedObj
-.consulo
+# =========================
+# 🎮 Unity Generated Folders
+# =========================
+[Ll]ibrary/
+[Tt]emp/
+[Oo]bj/
+[Bb]uild/
+[Bb]uilds/
+[Ll]ogs/
+UserSettings/
+MemoryCaptures/
+
+# =========================
+# 📦 Asset Store Tools
+# =========================
+**/Assets/AssetStoreTools*
+**/assets/assetstoretools*
+
+# =========================
+# 🔧 IDE / Editor Files
+# =========================
+.vs/
+.vscode/
+.idea/
+.gradle/
+.consulo/
+
+# =========================
+# 🧾 Solution / Project Files
+# =========================
 *.csproj
 *.unityproj
 *.sln
@@ -42,20 +42,55 @@ ExportedObj
 *.mdb
 *.opendb
 *.VC.db
+
+# =========================
+# 🧠 Unity Metadata Noise
+# =========================
 *.pidb.meta
 *.pdb.meta
 *.mdb.meta
-sysinfo.txt
-crashlytics-build.properties
+
+# =========================
+# 📱 Build Files
+# =========================
 *.apk
 *.aab
 *.app
 *.unitypackage
-~UnityDirMonSyncFile~*
-**/Assets/AddressableAssetsData/*/*.bin*
-**/assets/addressableassetsdata/*/*.bin*
-**/Assets/StreamingAssets/aa.meta
-**/assets/streamingassets/*/aa/*
-.DS_Store*
+
+# =========================
+# 🌍 OS Generated Files
+# =========================
+.DS_Store
 Thumbs.db
 Desktop.ini
+
+# =========================
+# 📡 Addressables / Streaming
+# =========================
+**/Assets/AddressableAssetsData/*/*.bin*
+**/Assets/StreamingAssets/aa.meta
+**/Assets/StreamingAssets/*/aa/*
+
+# =========================
+# 🔐 Private / Crash Files
+# =========================
+*.private
+*.private.meta
+^*.private.[0-9]+$
+^*.private.[0-9]+.meta$
+sysinfo.txt
+crashlytics-build.properties
+
+# =========================
+# 🚫 LARGE SOURCE FILES (IMPORTANT)
+# =========================
+*.psd
+*.tga
+*.blend
+*.fbx
+
+# ⚠️ Optional (only if huge textures exist)
+# Uncomment if needed:
+# *.png
+# *.jpg
